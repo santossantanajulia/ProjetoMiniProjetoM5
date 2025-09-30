@@ -4,6 +4,7 @@
   align-items: center;
   padding: 4rem 8%;
   color: #fff;
+  flex-wrap: wrap;
 }
 
 .content {
@@ -36,10 +37,10 @@
 .buttons {
   display: flex;
   gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .primaryBtn {
-  background: #ff3cac;
   background: linear-gradient(90deg, #784ba0, #ff3cac);
   color: white;
   padding: 0.8rem 1.6rem;
@@ -69,10 +70,26 @@
   color: #fff;
 }
 
+.socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.socials a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #ff6b81;
+}
+
 .imageWrapper {
   flex: 1;
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .image {

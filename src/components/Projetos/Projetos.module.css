@@ -1,0 +1,66 @@
+.projetos {
+  padding: 4rem 8%;
+  background-color: #1a0f2a;
+  color: #fff;
+}
+
+.projetos h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.projetos-lista {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projeto-card {
+  background-color: #2a1f3d;
+  padding: 1.5rem;
+  border-radius: 15px;
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projeto-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(255,255,255,0.2);
+}
+
+.projeto-card h3 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.projeto-card p {
+  font-size: 0.95rem;
+  margin: 0.8rem 0;
+  line-height: 1.4;
+}
+
+.projeto-card .link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #ff3cac;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.projeto-card .link:hover {
+  background: #784ba0;
+}
+
+.imagem {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}

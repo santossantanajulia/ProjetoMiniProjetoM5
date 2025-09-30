@@ -1,6 +1,9 @@
 import { useState } from "react";
 import styles from "./Hero.module.css";
 
+// Ícones do LinkedIn e GitHub
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -9,34 +12,40 @@ export default function Hero() {
   }
 
   return (
-    <section className={styles.hero}>
+    <section id="hero" className={styles.hero}>
       <div className={styles.content}>
         <p className={styles.subtitle}>OLÁ, EU SOU 👋</p>
         <h1 className={styles.title}>
-          Tábata <br /> Macedo
+          Júlia <br /> Vitória
         </h1>
-        <h2 className={styles.role}>
-          Desenvolvedora Fullstack <span>|</span> Educação
-        </h2>
+        <h2 className={styles.role}>Desenvolvedora FullStack</h2>
         <p className={styles.description}>
-          Transformo ideias em experiências digitais modernas, acessíveis e
-          impactantes. Vamos construir algo incrível juntos?
+          Tenho 17 anos, sou estudante de programação, gosto de tecnologia e desenvolvimento de soluções digitais. Busco aprender novas linguagens e aplicando os conhecimentos práticos que unem a criatividade e atenção aos detalhes. Vamos construir isso comigo?
         </p>
 
         <div className={styles.buttons}>
           <button onClick={toggleModal} className={styles.primaryBtn}>
             Fale Comigo
           </button>
-          <a href="/curriculo.pdf" className={styles.secondaryBtn}>
-            Meu currículo
+          <a href="https://www.linkedin.com/in/julia-vitoria-santos-santana-07ab5a37b"  className={styles.secondaryBtn}>
+            Meu LinkedIn
+          </a>
+        </div>
+
+        <div className={styles.socials}>
+          <a href="https://www.linkedin.com/in/julia-vitoria-santos-santana-07ab5a37b" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin />
+          </a>
+          <a href="https://github.com/santossantanajulia" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
           </a>
         </div>
       </div>
 
       <div className={styles.imageWrapper}>
         <img
-          src="/foto.png" // 👉 coloque sua imagem aqui na pasta public
-          alt="Tábata Macedo sorrindo com microfone e computador ao fundo"
+          src="/foto.png" // 👉 coloque sua imagem na pasta public
+          alt="Júlia Vitória sorrindo com computador ao fundo"
           className={styles.image}
         />
       </div>
@@ -45,7 +54,7 @@ export default function Hero() {
         <div className={styles.modalOverlay}>
           <div className={styles.modal}>
             <h3>Entre em contato 💌</h3>
-            <p>Email: <strong>tabata.macedo@email.com</strong></p>
+            <p>Email: <strong>vitoriasantossantanajulia@gmail.com</strong></p>
             <button onClick={toggleModal} className={styles.closeBtn}>
               Fechar
             </button>
