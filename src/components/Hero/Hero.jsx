@@ -44,8 +44,8 @@ export default function Hero() {
 
       <div className={styles.imageWrapper}>
         <img
-          src="/foto.png" // 👉 coloque sua imagem na pasta public
-          alt="Júlia Vitória sorrindo com computador ao fundo"
+          src="fotominha.jpg" 
+          alt="Júlia Vitória sorrindo"
           className={styles.image}
         />
       </div>

@@ -1,33 +1,51 @@
-.containerMenu{
-  background-color: transparent;
+.containerMenu {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
-  position: sticky;
+
+  /* altura fixa do menu — ajuste aqui se quiser menor/maior */
+  height: 56px;
+  padding: 0 8%;
+
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
+  box-sizing: border-box;
 }
 
-.logo{
+.logo {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.15rem;
   cursor: default;
+  color: #3cff76;
 }
 
-.menu{
+.menu {
   display: flex;
   list-style: none;
-  gap: 24px;
+  gap: 16px;
 }
 
-.menu li a{
+.menu li {
+  display: flex;
+  align-items: center;
+  height: 100%; /* garante centralização vertical */
+}
+
+.menu li a {
   color: white;
   text-decoration: none;
   font-weight: 500;
+  font-size: 0.95em;
   transition: color 0.3s ease;
+  padding: 6px 8px; /* área de clique melhorada */
+  line-height: 1;
 }
 
-.menu li a:hover{
-  color: #ff6b81; /* cor de destaque ao passar o mouse */
+.menu li a:hover {
+  color: #70ff6b;
 }

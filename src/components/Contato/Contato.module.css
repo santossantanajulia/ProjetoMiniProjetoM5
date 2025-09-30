@@ -1,6 +1,6 @@
 .contato {
   padding: 4rem 8%;
-  background-color: #0f0f1a;
+  background-color: #264d26;
   color: #fff;
   text-align: center;
 }
@@ -33,5 +33,5 @@
 }
 
 .links a:hover {
-  color: #ff6b81;
+  color: #a1ff6b;
 }

@@ -1,5 +1,5 @@
 .footer {
-  background-color: #1a0f2a;
+  background-color: #142a0f;
   color: #fff;
   padding: 2rem 8%;
   display: flex;
@@ -25,5 +25,5 @@
 }
 
 .socials a:hover {
-  color: #ff6b81;
+  color: #6bff7f;
 }

@@ -1,6 +1,6 @@
 .projetos {
   padding: 4rem 8%;
-  background-color: #1a0f2a;
+  background-color: #23582c;
   color: #fff;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .projeto-card {
-  background-color: #2a1f3d;
+  background-color: #1f3d1f;
   padding: 1.5rem;
   border-radius: 15px;
   flex: 1 1 250px;
@@ -47,7 +47,7 @@
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
-  background: #ff3cac;
+  background: #3cff5c;
   border-radius: 8px;
   color: #fff;
   text-decoration: none;
@@ -56,7 +56,7 @@
 }
 
 .projeto-card .link:hover {
-  background: #784ba0;
+  background: #4ba04f;
 }
 
 .imagem {

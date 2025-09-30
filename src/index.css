@@ -9,13 +9,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+/* === IMPORTANT: compensa o header fixo ===
+   deve ser igual ao "height" do .containerMenu (56px) */
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f0f1a, #1a0f1a);
-  color: white;
+  padding-top: 56px; /* <-- muito importante: evita corte pelo header */
+  background: linear-gradient(135deg, #2a6824, #86be81);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+/* quando clicar em âncoras, evita que o destino fique escondido */
+:target {
+  scroll-margin-top: 64px; /* um pouco maior que header para folga */
 }
 
 h1 {
@@ -23,14 +31,14 @@ h1 {
   line-height: 1.1;
 }
 
-
+/* preferências de tema claro */
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #42972d;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #74ff87;
   }
   button {
     background-color: #f9f9f9;
