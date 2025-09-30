@@ -1,12 +1,73 @@
-# React + Vite
+# Portfólio Pessoal - Júlia Vitória
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vinda(o) ao meu portfólio pessoal! 🌟  
+Este projeto é uma landing page em **React**, que apresenta minhas informações, projetos e formas de contato de maneira moderna, simples e interativa.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Sobre o projeto
 
-## Expanding the ESLint configuration
+A landing page foi desenvolvida com o objetivo de mostrar minhas habilidades e projetos como **Desenvolvedora FullStack**, utilizando uma interface agradável e intuitiva.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O design foi inspirado na evolução da web, priorizando **experiência do usuário**, animações leves e navegação simples.
+
+---
+
+## 💻 Tecnologias utilizadas
+
+- **React** (v18)  
+- **CSS Modules**  
+- **React Icons**  
+- HTML5  
+- CSS3  
+- JavaScript ES6+  
+
+> Observação: Nenhuma biblioteca de componentes prontos (Bootstrap, Material UI, etc.) foi utilizada.
+
+---
+
+## 🚀 Funcionalidades
+
+- Seção **Hero**: apresentação pessoal com nome, profissão, descrição e links sociais (LinkedIn e GitHub).  
+- Seção **Projetos**: cards com imagens, descrições e links para os projetos no GitHub.  
+- Seção **Contato**: links diretos para LinkedIn, GitHub e email.  
+- **Footer**: direitos reservados e links sociais.  
+- Efeitos visuais modernos: hover, transições e sombras.
+
+---
+
+## ⚙️ Como executar o projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/santossantanajulia/SeuRepositorio.git
+
+2. Acesse a pasta do projeto:
+
+cd SeuRepositorio
+
+
+3. Instale as dependências:
+
+npm install
+
+
+4. Rode o projeto:
+
+npm start
+
+
+5. O projeto abrirá automaticamente no navegador padrão em http://localhost:3000.
+
+🔗 Links importantes
+
+LinkedIn: https://www.linkedin.com/in/julia-vitoria-santos-santana-07ab5a37b
+
+GitHub do Portfólio: https://github.com/santossantanajulia
+
+Projeto Cadastro de Tênis: https://github.com/santossantanajulia/MiniProjetoM3
+
+✨ Autor
+
+Júlia Vitória dos Santos Santana
+Estudante de programação e Desenvolvedora FullStack
